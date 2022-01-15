@@ -5,6 +5,60 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+header{
+    background: #562EFF;
+    padding: 0;
+    animation: slidowm  1s ease .0s 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #562EFF;
+    margin-top: 20px;
+   
+    
+}
+.logo{
+    display:flex;
+    font-size: 25px;
+}
+#logo-2{
+    text-decoration: none;
+   
+}
+.logo img{
+    width:45px;
+}
+.navigation{
+    display:flex;
+}
+.navigation-items{
+    display:flex;
+    align-items: center;
+}
+.navigation-items li{
+    list-style: none;
+   
+}
+.navigation-items li a{
+    text-decoration: none;
+    padding: 0 20px;
+}
+.navigation-items li a:hover{
+    color:#FF4A60;
+    background-color: #95009b;
+    border-radius: 10px;
+}
+.avatar{
+    display:flex;
+    align-items: center;;
+    align-items: center;
+    margin-left: 10px;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -13,7 +67,6 @@ main{
 .container{
     background-color: #FFFFFF;
     width: 870px;
-    padding: 30px;
     border-radius: 5px;
     margin-top: 21px;
 }
